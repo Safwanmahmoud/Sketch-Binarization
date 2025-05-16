@@ -66,6 +66,7 @@ cv2.destroyAllWindows()
 | Input Sketch | Output Binary |
 |--------------|---------------|
 | ![[input](examples/input.png)](https://github.com/Safwanmahmoud/Sketch-Binarization/blob/main/input.png). | ![[Output](examples/output.png)](https://github.com/Safwanmahmoud/Sketch-Binarization/blob/main/output.png) |
+| ![[input](examples/input1.png)](https://github.com/Safwanmahmoud/Sketch-Binarization/blob/main/input1.png). | ![[Output](examples/output1.png)](https://github.com/Safwanmahmoud/Sketch-Binarization/blob/main/output1.png) |
 
 ## Contributing
 Feel free to submit issues or pull requests for improvements or bug fixes.
