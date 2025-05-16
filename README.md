@@ -1,6 +1,6 @@
 # Sketch Binarization
 
-This repository contains an algorithm for binarizing sketch images using local adaptive thresholding and contour processing. The algorithm converts grayscale or color sketches into clean binary images, preserving important sketch lines while removing noise.
+This repository contains an algorithm for binarizing sketch images using local adaptive thresholding and contour processing. The algorithm converts grayscale or color sketches into clean binary images, preserving important sketch lines while removing noise. The algorithm is imune to artifacts like shadows.
 
 ## Features
 - **Local Adaptive Thresholding**: Uses a sliding window to compute local mean and standard deviation for binarization.
@@ -54,7 +54,6 @@ cv2.destroyAllWindows()
 - `std_threshold`: Minimum standard deviation to avoid flat regions (default: 5).
 - `mean_factor`: Threshold adjustment factor (default: 0.8).
 - `min_contour_area`: Minimum contour area to filter noise (default: 30).
-- `epsilon_factor`: Contour approximation factor (default: 0.04).
 
 ## Algorithm Overview
 1. Convert input image to grayscale.
